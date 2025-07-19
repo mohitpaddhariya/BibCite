@@ -1,4 +1,9 @@
-// background.js
+/**
+ * @file: background.js
+ * @description: Handles background tasks for the BibCite extension, specifically fetching BibTeX content from URLs.
+ * This script listens for messages from the content script and fetches the BibTeX data from the provided URL.
+ * It then sends the fetched data back to the content script.
+ */
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     // This script now only handles fetching the BibTeX content.

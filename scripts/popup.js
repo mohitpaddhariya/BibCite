@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // *** KEY CHANGE: Listen for any changes to storage ***
     chrome.storage.onChanged.addListener((changes, namespace) => {
         if (namespace === 'local' && changes.lastBibtex) {
             // If the 'lastBibtex' value has changed, update the view.

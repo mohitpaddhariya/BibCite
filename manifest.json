@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Direct BibTeX for Google Scholar",
-  "version": "2.3",
-  "description": "Adds a one-click 'BibTeX' button to Google Scholar results to copy and edit the citation.",
+  "name": "BibCite: 1-Click BibTeX for Google Scholar",
+  "version": "3.0",
+  "description": "BibCite streamlines your research workflow by adding a 'BibTeX' button directly to Google Scholar search results. With a single click, save the citation, then view, edit, and copy the BibTeX code from a clean popup interface without ever leaving the page.",
   "permissions": [
     "storage",
     "clipboardWrite",
@@ -13,7 +13,7 @@
     "https://scholar.googleusercontent.com/*"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "./scripts/background.js"
   },
   "declarative_net_request": {
     "rule_resources": [
@@ -27,8 +27,8 @@
   "content_scripts": [
     {
       "matches": ["https://scholar.google.com/*"],
-      "js": ["content.js"],
-      "css": ["styles.css"]
+      "js": ["./scripts/content.js"],
+      "css": ["./styles/styles.css"]
     }
   ],
   "action": {
