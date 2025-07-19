@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direct BibTeX</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <!-- Editor View - Initially hidden -->
+    <div id="editor-view" style="display: none;">
+        <div class="container">
+            <h2>Last Saved BibTeX</h2>
+            <textarea id="bibtex-content" rows="10" placeholder="Something went wrong."></textarea>
+            <div class="button-group">
+                <button id="copy-btn">Copy</button>
+                <button id="clear-btn">Clear</button>
+            </div>
+            <div id="status-message"></div>
+        </div>
+    </div>
+
+    <!-- Welcome View - Initially hidden -->
+    <div id="welcome-view" style="display: none;">
+        <h2>Direct BibTeX for Google Scholar</h2>
+        <div class="feature">
+            <div class="feature-title">📋 One-Click Save</div>
+            <div class="feature-desc">Click the "BibTeX" button to instantly save citations.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-title">✏️ View & Edit</div>
+            <div class="feature-desc">View and edit the BibTeX content right here before using it.</div>
+        </div>
+        <p><strong>How to use:</strong></p>
+        <p>1. Go to Google Scholar search results.</p>
+        <p>2. Click the "BibTeX" button next to a result.</p>
+        <p>3. The citation will be saved and shown here!</p>
+        <div class="version">Version 2.2</div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

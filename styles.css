@@ -1,0 +1,13 @@
+/* styles.css */
+/* This file provides some basic styling for our new button. */
+
+.direct-bibtex-btn {
+  /* Making it look like other Google Scholar links */
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.direct-bibtex-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

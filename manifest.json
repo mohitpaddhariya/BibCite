@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Direct BibTeX for Google Scholar",
+  "version": "2.3",
+  "description": "Adds a one-click 'BibTeX' button to Google Scholar results to copy and edit the citation.",
+  "permissions": [
+    "storage",
+    "clipboardWrite",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://scholar.google.com/*",
+    "https://scholar.googleusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://scholar.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
