@@ -22,7 +22,7 @@ BibCite eliminates these extra steps. It provides a **direct, one-click button**
 
 ## **Live Demo**
 
-![BibCite Demo GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnN3c2JyYWZ1MWtwcWJybzdlZTN5ZHV4eHlzenNrNWt1YjB0ZGt3cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o72FkiKGMGauydfyg/giphy.gif)
+<video src="./BibCite-introduction.mp4" controls width="600" alt="BibCite Demo Video"></video>
 
 ---
 
