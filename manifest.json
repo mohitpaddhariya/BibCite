@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "BibCite: 1-Click BibTeX for Google Scholar",
   "version": "3.0",
-  "description": "BibCite streamlines your research workflow by adding a 'BibTeX' button directly to Google Scholar search results. With a single click, save the citation, then view, edit, and copy the BibTeX code from a clean popup interface without ever leaving the page.",
+  "description": "BibCite adds a 'BibTeX' button to Google Scholar, letting you copy, edit, and save citations instantly in a clean popup.",
   "permissions": [
     "storage",
     "clipboardWrite",
