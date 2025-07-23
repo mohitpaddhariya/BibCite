@@ -22,11 +22,12 @@ BibCite eliminates these extra steps. It provides a **direct, one-click button**
 
 ## **Live Demo**
 
-<video src="./BibCite-introduction.mp4" controls width="600" alt="BibCite Demo Video"></video>
+<video src="https://github.com/user-attachments/assets/1be40b1a-18b0-444d-9589-0ba22e76df84" controls width="600" alt="BibCite Demo Video"></video>
 
 ---
 
 ## **Key Features**
+
 
 * 🖱️ **One-Click Saving**: A "BibTeX" button appears directly on the Google Scholar search results.
 * ⚡ **Instant Access**: Fetches and saves the complete BibTeX citation in the background.
