@@ -1,6 +1,6 @@
 # Privacy Policy for BibCite
 
-**Last Updated:** July 20, 2025
+**Last Updated:** July 23, 2025
 
 This Privacy Policy explains how the BibCite browser extension ("the extension") handles information. Our commitment is to protect your privacy and collect only the absolute minimum information necessary for the extension to function.
 
@@ -42,4 +42,4 @@ We may update this Privacy Policy in the future. Any changes will be reflected i
 
 ## Contact Us
 
-If you have any questions or concerns about this Privacy Policy, please contact us at: **hypercluster.tech@gmail.com**
+If you have any questions or concerns about this Privacy Policy, please contact us at: **hypercluster.tech@gmail.com** or **mohit.paddhariya@gmail.com**.

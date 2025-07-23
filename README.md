@@ -40,9 +40,14 @@ BibCite eliminates these extra steps. It provides a **direct, one-click button**
 
 ### **Official Release (Coming Soon)**
 
-BibCite will be available on the Chrome Web Store soon!
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Coming_Soon-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore/)
+BibCite is now available on the Chrome Web Store!
+
+<p>
+  <a href="hthttps://chromewebstore.google.com/detail/bibcite-1-click-bibtex-fo/ilgndeefmbeoeladbjfjaifbelcdkbah" target="_blank">
+    <img src="https://img.shields.io/badge/Available_on-Chrome_Web_Store-brightgreen?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Chrome Web Store"/>
+  </a>
+</p>
 
 ### **Manual Installation (for Developers)**
 
