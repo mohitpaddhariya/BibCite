@@ -39,7 +39,7 @@ BibCite eliminates these extra steps. It provides a **direct, one-click button**
 
 ## **Installation**
 
-### **Official Release (Coming Soon)**
+### **Official Release**
 
 
 BibCite is now available on the Chrome Web Store!
